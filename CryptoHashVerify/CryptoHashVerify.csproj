@@ -6,10 +6,27 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageProjectUrl>https://github.com/chandru415/crypto-hash-verify</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/chandru415/crypto-hash-verify/tree/master</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageTags>pbkdf2, password-hash, hash-verify, cryptography</PackageTags>
+    <Description>ASP.Net, hashing with salt &amp; verification (encrypt &amp; decrypt style). Password-Based Key Derivation Function 2</Description>
+    <Copyright>chandru415 @ GPL - 3.0</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>ASP.Net, hashing with salt &amp; verification (encrypt &amp; decrypt style). Password-Based Key Derivation Function 2.</PackageReleaseNotes>
   </PropertyGroup>
   
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="3.1.6" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
