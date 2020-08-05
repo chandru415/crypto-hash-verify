@@ -44,7 +44,7 @@ To install the *package* to any .Net Core application please click [here](https:
 
 * ***VerifyHashString*** method will return a true password matches otherwise false.
 
-<img align="center" src="./assests/foutput.png" alt="foutput">
+<img align="center" src="./assests/foutput.PNG" alt="foutput">
 
 <br/>
 
