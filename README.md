@@ -31,13 +31,13 @@ To install the *package* to any .Net Core application please click [here](https:
   * hashed password
   * salt value
 
-<img align="center" src="./assests/input-password.png" alt="input-password">
+<img align="center" src="./assests/input-password.PNG" alt="input-password">
 
 <br/>
 
 *output*
 
-<img align="center" src="./assests/hashedoutput.png" alt="hashedoutput">
+<img align="center" src="./assests/hashedoutput.PNG" alt="hashedoutput">
 
 <br/>
 
