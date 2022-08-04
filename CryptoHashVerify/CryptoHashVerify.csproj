@@ -12,14 +12,25 @@
     <PackageTags>pbkdf2, password-hash, hash-verify, cryptography</PackageTags>
     <Description>ASP.Net, hashing with salt &amp; verification (encrypt &amp; decrypt style). Password-Based Key Derivation Function 2</Description>
     <Copyright>chandru415 @ GPL - 3.0</Copyright>
+    <Title>CryptoHashVerify</Title>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageReleaseNotes>ASP.Net, hashing with salt &amp; verification (encrypt &amp; decrypt style). Password-Based Key Derivation Function 2.</PackageReleaseNotes>
+    <Summary>ASP.Net, hashing with salt &amp; verification (encrypt &amp; decrypt style). Password-Based Key Derivation Function 2.</Summary>
+    <PackageVersion>2.0.1.0</PackageVersion>
+    <AssemblyVersion>2.0.1.0</AssemblyVersion>
+    <FileVersion>2.0.1.0</FileVersion>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   
   <ItemGroup>
     <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
   
